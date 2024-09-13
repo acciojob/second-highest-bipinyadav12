@@ -11,9 +11,8 @@
 		function secondHighest(arr) {
 			if(arr.length>1){
 				arr.sort((a b)=>(a-b));
-				if( arr[0]===arr[arr.length-1]){
-					return -infinty;}
-				else{
+				if( arr[0]===arr[arr.length-1])
+					return -infinty;
 					return arr[arr.length-2];
 				}
 				else {
@@ -21,7 +20,6 @@
 				}
 				}
 			}
-
 		function Main() {
 			var n = prompt("Enter the number of elements");
 			var arr = [];
