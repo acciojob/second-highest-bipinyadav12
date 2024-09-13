@@ -9,20 +9,18 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			if(arr.lenght > 1){
-				arr.sort(a,b)=>(a-b);
-				if (arr[0]===arr[arr.lenght-1]){
-					return -infinity;
+			if(arr.length>1){
+				arr.sort((a b)=>(a-b));
+				if( arr[0]===arr[arr.length-1]){
+					return -infinty;}
+				else{
+					return arr[arr.length-2];
 				}
-				else
-				return arr[arr.length-2];
-				
-			}
-			else{
+				else {
 				return -infinity;
+				}
+				}
 			}
-			
-		}
 
 		function Main() {
 			var n = prompt("Enter the number of elements");
