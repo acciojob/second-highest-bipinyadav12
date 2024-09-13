@@ -9,11 +9,12 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			if(arr.lenght>1){
-				arr.sort(a,b){return(b-a);}
-				if (arr[0]===arr[arr.lenght-2]){
+			if(arr.lenght > 1){
+				arr.sort(a,b)=>(a-b);
+				if (arr[0]===arr[arr.lenght-1]){
 					return -infinity;
 				}
+				else
 				return arr[arr.length-2];
 				
 			}
