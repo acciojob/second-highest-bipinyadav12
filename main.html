@@ -9,7 +9,17 @@
 <body>	
 	<script>
 		function secondHighest(arr) {
-			//Write your code here
+			if(arr().lenght>1){
+				arr.sort(a,b){return(b-a);}
+				if (arr[0]===arr[arr.lenght-2]){
+					return -infinity;
+				}
+				return arr[arr.length-2];
+				
+			}
+			else{
+				return -infinity;
+			}
 			
 		}
 
